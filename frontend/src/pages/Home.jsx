@@ -1,9 +1,14 @@
 import React from 'react'
+import Banner from '../components/home/Banner'
+import HeroSection from '../components/home/HeroSection'
+import Features from '../components/home/Features'
 
 const Home = () => {
   return (
     <div>
-        <h1>Home Page</h1>
+        <Banner />
+        <HeroSection />
+        <Features />
     </div>
   )
 }
